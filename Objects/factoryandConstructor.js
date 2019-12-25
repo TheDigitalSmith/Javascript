@@ -10,8 +10,8 @@ console.log(address);
 
 //constructor function 
 function GetAddress (street, city, zipCode){
-    this.street = street,
-    this.city = city,
+    this.street = street
+    this.city = city
     this.zipCode = zipCode
 }
 
