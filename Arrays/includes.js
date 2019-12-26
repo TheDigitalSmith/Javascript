@@ -1,6 +1,6 @@
 let array = [1, 2, 3, 4, 5]
-let result = includes(array, 5)
-console.log(includes(array,4))
+includes(array, 5)
+console.log(includes(array, 2))
 
 //My solution
 function includes(array, searchElement) {
@@ -12,9 +12,9 @@ function includes(array, searchElement) {
     return false
 }
 
-//Alternative solution
+// Alternative solution (Ask Diego why this function works without the codeblock but not with it)
 // function includes(array, searchElement) {
-//     for (let element of array) 
+//     for (let element of array)
 //         if (element === searchElement) {
 //             return true
 //         }
