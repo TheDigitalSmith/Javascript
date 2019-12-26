@@ -12,7 +12,7 @@ function includes(array, searchElement) {
     return false
 }
 
-//Alternative solution (Mosh)
+//Alternative solution
 // function includes(array, searchElement) {
 //     for (let element of array) 
 //         if (element === searchElement) {
